@@ -1,7 +1,7 @@
 .container {
     max-width: 400px;
     margin: 10vh auto 0 auto;
-    background-color: yellow;
+    background-color: #F5F1ED;
 }
 
 #display {
@@ -14,14 +14,13 @@
 
 .buttons {
     display: grid;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
 }
 
 #buttons div {
-    border-top: 1px solid black;
-    border-right: 1px solid black;
+    border-top: 1px solid #252323;
+    border-right: 1px solid #252323;
 }
 
 .button {
@@ -30,15 +29,19 @@
     text-align: center;
     font-size: 25px;
     cursor: pointer;
+    border-radius: 60px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .button:hover {
-    background-color: green;
-    color: white;
+    background-color: #70798C;
+    color: #F5F1ED;
     transition: .5s ease-in-out;
 }
 
 #equal {
-    background-color: blue;
-    color: white;
+    background-color: #A99985;
+    color: #F5F1ED;
 }
